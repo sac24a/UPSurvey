@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">UP Survey</string>
+    <string name="s3.1">छेत्र कैसा है?</string>
+    <string name="s3.2">मुख्य आर्थिक गतिविधि</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="up2022">उत्तर प्रदेश 2022</string>
+    <string name="area">छेत्र का नाम</string>
+    <string name="s2.1">288-कैसरगंज</string>
+    <string name="s2.2">उमरी</string>
+    <string name="s2.3">वर्तमान लोकेशन</string>
+    <string name="politics3.h">राजनीतिक आँकलन</string>
+    <string name="b2.3">सामाजिकिर्ग</string>
+    <string name="rakesh">राकेश कुमार</string>
+    <string name="screen5">विकास कार्य</string>
+    <string name="bijli">बिजली सप्लाई</string>
+    <string name="_22hrs">22hrs+</string>
+    <string name="_12_22hrs">12-22hrs</string>
+    <string name="_12hrs"><![CDATA[>12hrs]]></string>
+    <string name="road">सड़कों की हालत</string>
+    <string name="good">अच्छी</string>
+    <string name="average">औसत</string>
+    <string name="less">&lt;5km </string>
+    <string name="bad">खराब</string>
+    <string name="water_condition">पीने का पानी की हालत</string>
+    <string name="government_benefits">सरकारी स्वास्थ्य सुविधाएं</string>
+    <!--    <string name="good">अच्छी</string>-->
+    <!--    <string name="average">औसत</string>-->
+    <!--    <string name="bad">खराब</string>-->
+    <string name="area_in">क्षेत्र में</string>
+    <string name="_5_km"><![CDATA[>5 Km]]></string>
+    <string name="_5_km1"><![CDATA[<5 Km]]></string>
+    <string name="school">सरकारी स्कूल</string>
+    <string name="update">Update</string>
+    <!--    <string name="good">अच्छी</string>-->
+    <!--    <string name="average">औसत</string>-->
+    <!--    <string name="bad">खराब</string>-->
+    <string name="high">High</string>
+    <string name="Medium">Medium</string>
+    <string name="Low">Low</string>
+    <string-array name="Spinner_items">
+        <item>Spinner Item One</item>
+        <item>Spinner Item Two</item>
+        <item>Spinner Item Three</item>
+        <item>Spinner Item Four</item>
+        <item>Spinner Item Five</item>
+
+    </string-array>
+    <string-array name="party_items">
+        <item>कौन सी पार्टी आगे है</item>
+        <item>BJP</item>
+        <item>SP</item>
+        <item>BSP</item>
+        <item>Congress</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="fav_party">
+        <item>किस पार्टी की तरफ़ झुकाव है</item>
+        <item>BJP</item>
+        <item>SP</item>
+        <item>BSP</item>
+        <item>Congress</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="emp_post">
+        <item>पद</item>
+        <item>पंचायत सचिव</item>
+        <item>स्कूल प्रधानाचार्य</item>
+        <item>स्कूल अध्यापक</item>
+        <item>आंगनवाड़ी</item>
+        <item>आशा</item>
+        <item>सरकारी डॉक्टर</item>
+        <item>चोकीदार</item>
+        <item>डाकिया</item>
+
+    </string-array>
+    <string-array name="gender">
+        <item>लिंग</item>
+        <item>पुरुष</item>
+        <item>महिला</item>
+        <item>अन्य</item>
+    </string-array>
+    <string-array name="social_type">
+        <item>समुदाय - समाज</item>
+        <item>ब्राह्मण</item>
+        <item>बनिया</item>
+        <item>ठाकुर</item>
+    </string-array>
+</resources>

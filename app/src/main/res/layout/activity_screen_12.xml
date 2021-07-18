@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen_12">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/locaName"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="40dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="80sp"
+                android:src="@drawable/icon1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/straight_dash_line"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layerType="software" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/villName"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सामाजिक वर्ग"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="कुल वोटर-883"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="अगडे मुस्लिम"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:hint="कुल वोटर"
+                android:textColor="@color/black"
+                android:layout_marginStart="40sp"
+                android:background="@drawable/edit_bg"
+                android:id="@+id/editText"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn"
+                android:text="महत्वपूर्ण व्यक्ति +" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="पिछड़े मुस्लिम"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:hint="कुल वोटर"
+                android:textColor="@color/black"
+                android:layout_marginStart="40sp"
+                android:id="@+id/editText1"
+                android:background="@drawable/edit_bg"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn2"
+                android:text="महत्वपूर्ण व्यक्ति +" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="सिक्ख समाज"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:hint="कुल वोटर"
+                android:textColor="@color/black"
+                android:layout_marginStart="40sp"
+                android:id="@+id/editText2"
+                android:background="@drawable/edit_bg"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn3"
+                android:text="महत्वपूर्ण व्यक्ति +" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="अन्य"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:hint="कुल वोटर"
+                android:textColor="@color/black"
+                android:layout_marginStart="40sp"
+                android:id="@+id/editText3"
+                android:background="@drawable/edit_bg"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn4"
+                android:text="महत्वपूर्ण व्यक्ति +" />
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:text="Save"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>

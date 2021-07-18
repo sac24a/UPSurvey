@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen_10_1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/locaName"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="40dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="80sp"
+                android:src="@drawable/icon1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/straight_dash_line"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layerType="software" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/villName"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सामाजिक वर्ग"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="कुल वोटर-883"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="चौरसिया समाज"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:hint="कुल वोटर"
+                android:textColor="@color/black"
+                android:layout_marginStart="40sp"
+                android:background="@drawable/edit_bg"
+                android:id="@+id/editText"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn"
+                android:text="महत्वपूर्ण व्यक्ति +" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="गोसाईं समाज"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:hint="कुल वोटर"
+                android:textColor="@color/black"
+                android:layout_marginStart="40sp"
+                android:id="@+id/editText1"
+                android:background="@drawable/edit_bg"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn2"
+                android:text="महत्वपूर्ण व्यक्ति +" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="कहार समाज"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:hint="कुल वोटर"
+                android:textColor="@color/black"
+                android:layout_marginStart="40sp"
+                android:id="@+id/editText2"
+                android:background="@drawable/edit_bg"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn3"
+                android:text="महत्वपूर्ण व्यक्ति +" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="अन्य पिछड़ा वर्ग"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:hint="कुल वोटर"
+                android:textColor="@color/black"
+                android:layout_marginStart="40sp"
+                android:id="@+id/editText3"
+                android:background="@drawable/edit_bg"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn4"
+                android:text="महत्वपूर्ण व्यक्ति +" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:gravity="center"
+                android:text="Update"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="80sp"
+                android:textColor="@color/black"
+                />
+            <ImageButton
+                android:id="@+id/forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_forward_24"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
